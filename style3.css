@@ -215,11 +215,26 @@ div.botao{
 
  #about{
  	color: #fff;
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 6rem;
+    font-weight: 500px;
+    font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    letter-spacing: -0.02em;
  }
 
+ /*center-box*/
+  #about2{
+  border-bottom:1px solid #fff;
+  margin-bottom:10px;
+  font-size:28px;
+  letter-spacing: -0.8px;
+}
 
+.general-description{
+  font-size:20px;
+  color:#fff;
+  font-style:italic;
+  
+}
 
 .dados{
 	display:inline-block;

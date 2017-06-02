@@ -223,6 +223,7 @@ div.botao{
 
  /*center-box*/
   #about2{
+  
   border-bottom:1px solid #fff;
   margin-bottom:10px;
   font-size:28px;
@@ -234,6 +235,12 @@ div.botao{
   color:#fff;
   font-style:italic;
   
+}
+
+/*Left-box*/
+
+.img-custom{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .dados{

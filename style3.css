@@ -4,7 +4,7 @@
 
 
 body {
-      position: relative;
+    position: relative;
 		box-sizing:border-box;
   }
 
@@ -19,6 +19,7 @@ body {
 	background-size:100%;
 	background-repeat:no-repeat;
 	background-size:cover;
+  width:100%;
 	
  }
 
@@ -202,6 +203,8 @@ div.botao{
 
  div.iconesRedesSociais{
   display:inline-block;
+  max-width:32%;
+  border: 1px solid black;
  	 }
 
  	 /*SECTION 2*/

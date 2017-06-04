@@ -58,10 +58,10 @@ body {
   
 #myName {
 	font-size: 1.8vw;
-    line-height: 50vh;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 2.2vh;	
+  line-height: 50vh;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 2.2vh;	
 	}
 
 #dev{
@@ -69,8 +69,8 @@ body {
 	margin-top:-22.4vh;
 	margin-bottom:1.43vh;
 	font-size: 4.2vw;
-    line-height: 10.5vh;
-    color:#52b3d9;
+  line-height: 10.5vh;
+  color:#52b3d9;
 }
 
 #palavraWEB{
@@ -78,7 +78,7 @@ body {
 }
 
 #frase{
-	
+	font-size: 1.15vw;
 	margin-bottom:4.4vh;
 
 }

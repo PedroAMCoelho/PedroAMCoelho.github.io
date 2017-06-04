@@ -162,7 +162,7 @@ a#gmail{
     height: 50px;
     width: 30px;
     margin-left: 50%;
-    margin-top:22.6vh;
+    margin-top:21vh;
 }
 
  .wheel{
@@ -192,23 +192,16 @@ a#gmail{
 div.botao{
 	border-radius: 10px;
 	background: #fff;
-    width: 1.1px;
-    height: 9px;
-    top: -10px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1.1px;
+  height: 9px;
+  top: -10px;
+  margin-left: auto;
+  margin-right: auto;
 	position:relative;
 }
 
- div.row{
- 	background:transparent;
- 	
- 	border-left: 0;
-  	border-right: 0;
-  	border-top: 0;
-  	border-bottom: 0;
- 	border-radius:3%;
-	animation-name:drop;
+ div.iconesRedesSociais{
+  display:inline-block;
  	 }
 
  	 /*SECTION 2*/

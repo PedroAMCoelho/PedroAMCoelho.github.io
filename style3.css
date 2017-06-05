@@ -1,88 +1,87 @@
-@media screen and (max-width: 1024px) {
-   /*estilos*/
-}
-
-
 body {
     position: relative;
-		box-sizing:border-box;
+    box-sizing:border-box;
   }
 
  #section1 {
- 	padding-top:6vh;
- 	height:100vh;
- 	line-height: 6vh;
- 	color: #fff; 
- 	background-color: grey;
- 	text-align:center;
-	background-image: url("rs.jpg");
-	background-size:100%;
-	background-repeat:no-repeat;
-	background-size:cover;
+  padding-top:6vh;
+  height:100vh;
+  line-height: 6vh;
+  color: #fff; 
+  background-color: grey;
+  text-align:center;
+  background-image: url("rs.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
   width:100%;
-	
+  
  }
 
   #section2 {
-  	padding-top:5vh;
-  	height:900px;
-  	background-color: rgba(210,180,140,0.6);
-  	
+    padding-top:5vh;
+    height:900px;
+    background-color: rgba(210,180,140,0.6);
+    
 
   }
   #section3 {
-  	padding-top:50px;
-  	height:500px;
-  	color: #fff; 
-  	background-color: #ff9800;
+    padding-top:50px;
+    height:500px;
+    color: #fff; 
+    background-color: #ff9800;
   }
   #section4 {
-  	padding-top:50px;
-  	height:500px;
-  	color: #fff; 
-  	background-color: #00bcd4;
+    padding-top:50px;
+    height:500px;
+    color: #fff; 
+    background-color: #00bcd4;
   }
 
   /*NO NAVBAR*/
 
 #menu{
-	float:right;
-	max-height:4px;
-	margin-right:10vw;
+  float:right;
+  max-height:4px;
+  margin-right:10vw;
 }
 
 #WebSiteName{
-	margin-right:40vw;
+  margin-right:40vw;
 }
 
 /* SECTION 1 - HOMEPAGE */
   
 #myName {
-	font-size: 1.8vw;
+  font-size: 2.8vw;
   line-height: 50vh;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 2.2vh;	
-	}
+  margin-bottom: 2.2vh; 
+  }
 
 #dev{
-	
-	margin-top:-22.4vh;
-	margin-bottom:1.43vh;
-	font-size: 4.2vw;
+  
+  margin-top:-22.4vh;
+  margin-bottom:1.43vh;
+  font-size: 5.2vw;
   line-height: 10.5vh;
   color:#52b3d9;
 }
 
 #palavraWEB{
-	color:#9370DB;
+  color:#9370DB;
 }
 
 #frase{
-	font-size: 1.15vw;
-	margin-bottom:4.4vh;
+  font-size: 1.7vw;
+  margin-bottom:4.4vh;
 
 }
+
+div.iconesRedesSociais{
+  display:inline-block;
+   }
 
 
 /* Font awesome icons */
@@ -99,8 +98,8 @@ body {
 /* Font awesome Hover effect */
 .fa:hover {
     opacity: 0.7;
-	text-decoration: none; /* Tirar o sublinhado dos icones */
-	color:white;
+  text-decoration: none; /* Tirar o sublinhado dos icones */
+  color:white;
 }
 
 /*Botão girado, fundo transparente*/
@@ -115,42 +114,42 @@ margin: 12px;
 
 /*Cor de fundo do HOVER dos botões que os ícones das redes sociais estão*/
 button.btn:hover{
-	background-color:rgba(138,43,226, 0.3);
+  background-color:rgba(138,43,226, 0.3);
 }
 
 /*Ajuste do posicionamento dos ícones redes sociais dentro dos botões*/
 a#face{
-	position:relative;
-	transform:rotate(-50deg);
-	left:-15px;
-	top:-8px;
+  position:relative;
+  transform:rotate(-50deg);
+  left:-15px;
+  top:-8px;
 }
 
 a#whats{
-	position:relative;
-	transform:rotate(-50deg);
-	left:-15px;
-	top:-10.8px;
-	
+  position:relative;
+  transform:rotate(-50deg);
+  left:-15px;
+  top:-10.8px;
+  
 }
 a#git{
-	position:relative;
-	transform:rotate(-48deg);
-	left:-15px;
-	top:-9.4px;
+  position:relative;
+  transform:rotate(-48deg);
+  left:-15px;
+  top:-9.4px;
 }
 
 a#lkedin{
-	position:relative;
-	transform:rotate(-45deg);
-	left:-15px;
-	top:-9px;
+  position:relative;
+  transform:rotate(-45deg);
+  left:-15px;
+  top:-9px;
 }
 a#gmail{
-	position:relative;
-	transform:rotate(-45deg);
-	left:-15px;
-	top:-10px;
+  position:relative;
+  transform:rotate(-45deg);
+  left:-15px;
+  top:-10px;
 }
 
 /* Ícone do mouse no final da section 1*/
@@ -167,7 +166,7 @@ a#gmail{
 }
 
  .wheel{
- 	
+  
     border-radius: 10px;
     background: #fff;
     width: 4px;
@@ -191,26 +190,20 @@ a#gmail{
 }
 
 div.botao{
-	border-radius: 10px;
-	background: #fff;
+  border-radius: 10px;
+  background: #fff;
   width: 1.1px;
   height: 9px;
   top: -10px;
   margin-left: auto;
   margin-right: auto;
-	position:relative;
+  position:relative;
 }
 
- div.iconesRedesSociais{
-  display:inline-block;
-  max-width:32%;
-  border: 1px solid black;
- 	 }
-
- 	 /*SECTION 2*/
+   /*SECTION 2*/
 
  #about{
- 	
+  
     font-size: 6rem;
     font-weight: 500px;
     font-family: Bree Serif, Helvetica, Arial, Sans-serif;
@@ -240,6 +233,57 @@ div.botao{
 }
 
 .dados{
-	display:inline-block;
-	width:259px;
+  display:inline-block;
+  width:259px;
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 800px){
+
+button.btn{
+height:31px;
+width:31px;
+margin: 6px;
+}
+
+.fa{
+
+font-size: 20px;
+  }
+
+  a#face{
+  
+transform:rotate(-48deg);
+left:-22px;
+top:-11.8px;
+}
+
+a#whats{
+  
+transform:rotate(-48deg);
+left:-22px;
+top:-11.8px;
+  
+}
+a#git{
+  
+transform:rotate(-48deg);
+left:-22px;
+top:-11.8px;
+}
+
+a#lkedin{
+  
+transform:rotate(-48deg);
+left:-22px;
+top:-11.8px;
+}
+a#gmail{
+  
+transform:rotate(-48deg);
+left:-22px;
+top:-11.8px;
+}
+
 }

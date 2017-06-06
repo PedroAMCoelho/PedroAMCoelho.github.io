@@ -258,67 +258,86 @@ div.botao{
 
 h2 {
   border-bottom:1px solid black;
+
 }
 
 ul.skills-chart li {
-    height: 35px;
+    height: 30px;
     color: #FFF;
     text-align: left;
     font-style: italic;
     font-size: 15px;
-    line-height: 35px;
+    line-height: 30px;
     padding: 0px 20px;
     margin-bottom: 1px;
     position: relative;
     animation-name: example;
-    animation-duration: 2s;
+    animation-duration: 6.5s;
+    animation-timing-function:ease-out;
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {width:100px; }
-    25%  {width:150px; }
-    50%  {width:175px; }
-    75%  {width:200px; }
-    100% {width:250px; }
+    
+    0%{width:150px;}
+    20%{width:210px;}
+    30%{width:220px;}
+     
 }
 
 ul.skills-chart li.html {
-    width: 560px;
+    width: 535px;
     background: #bc0000;
 }
 
 ul.skills-chart li.css {
-    width: 560px;
+    width: 440px;
     background: blue;
 }
 
 ul.skills-chart li.bootstrap {
-    width: 560px;
+    width: 330px;
     background: purple;
 }
 
 ul.skills-chart li.jquery {
-    width: 560px;
+    width: 240px;
     background: #00BFFF;
 }
 
 ul.skills-chart li.js {
-    width: 560px;
+    width: 250px;
     background: #FFA500;
 }
 
 ul.skills-chart li.java {
-    width: 560px;
+    width: 310px;
     background: #FF4500;
+}
+
+ul.skills-chart li.github {
+    width: 300px;
+    background: black;
 }
 
 ul.skills-chart li.bonus {
     color:black;
 }
 
+ul.skills-chart li.lang-Pt {
+    width: 600px;
+    background: green;
+    color:black;
+}
+
+ul.skills-chart li.lang-Eng {
+    width: 590px;
+    background: #fff;
+    color:black;
+}
+
 ul.skills-chart li.ip {
-    width: 560px;
+    width: 580px;
     background: #FF1493;
 }
 

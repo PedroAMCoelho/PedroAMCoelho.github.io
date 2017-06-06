@@ -20,10 +20,10 @@ body {
 
   #section2 {
     padding-top:5vh;
-    height:900px;
+    height:2000px;
     background-color: rgba(210,180,140,0.6);
     
-
+    
   }
   #section3 {
     padding-top:50px;
@@ -232,12 +232,108 @@ div.botao{
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
+/*right-box*/
+
 .dados{
   display:inline-block;
   width:259px;
 }
 
+/*container of all the above 3 boxes */
+
+ .about-container{
+  border-bottom:1px solid black;
+  padding-bottom: 40px;
+  border-image: radial-gradient(black, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  border-image-slice:1;
+ }
+
+/*Skills*/
+
+.skills{
+  padding-top:20px;
+  margin-left:5.5vw;
+  display:block;
+}
+
+h2 {
+  border-bottom:1px solid black;
+}
+
+ul.skills-chart li {
+    height: 35px;
+    color: #FFF;
+    text-align: left;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 0px 20px;
+    margin-bottom: 1px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {width:100px; }
+    25%  {width:150px; }
+    50%  {width:175px; }
+    75%  {width:200px; }
+    100% {width:250px; }
+}
+
+ul.skills-chart li.html {
+    width: 560px;
+    background: #bc0000;
+}
+
+ul.skills-chart li.css {
+    width: 560px;
+    background: blue;
+}
+
+ul.skills-chart li.bootstrap {
+    width: 560px;
+    background: purple;
+}
+
+ul.skills-chart li.jquery {
+    width: 560px;
+    background: #00BFFF;
+}
+
+ul.skills-chart li.js {
+    width: 560px;
+    background: #FFA500;
+}
+
+ul.skills-chart li.java {
+    width: 560px;
+    background: #FF4500;
+}
+
+ul.skills-chart li.bonus {
+    color:black;
+}
+
+ul.skills-chart li.ip {
+    width: 560px;
+    background: #FF1493;
+}
+
+ul.skills-chart > p.timeline{
+  background:url("timeline.png");
+  background-repeat:no-repeat;
+  height:50px;
+}
+
+
+
+
 /*MOBILE*/
+
+/*SECTION 1*/
 
 @media screen and (max-width: 800px){
 

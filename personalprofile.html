@@ -77,7 +77,7 @@
 
 <h1 id="about" class="text-center"> A SNEAK PEEK ABOUT ME <br /><img src="5stars-dark2.png" alt="Smiley face"></h1>
 
-<div class="row">
+<div class="row about-container">
   
   <div class="col-md-4"> <!-- Left-box -->
   <br />
@@ -108,12 +108,35 @@
 
 
 </div>
+</div> <!-- Closes about-container -->
+
+<div class="row"> <!--Opens skills-container -->
+
+  <div class="col-md-7 skills">
+
+  <h2><i class="fa fa-bar-chart"></i> Skills</h2>
+
+  <ul class="list-unstyled skills-chart">
+    <li class="html">HTML</li>
+    <li class="css">CSS</li>
+    <li class="bootstrap">Bootstrap</li>
+    <li class="jquery">jQuery</li>
+    <li class="js">Javascript</li>
+    <li class="java">Java</li>
+    <li class="bonus">*Bonus feature<i class="fa fa-arrow-down" style="font-size:15px; color:black"></i></li>
+    <li class="ip">Intellectual Property</li>
+    <p class="timeline"></p>
+  </ul>    
+
 </div>
 
-
-
+<div class="col-md-5"></div>
   
 </div>
+
+  </div>
+</div> <!-- Closes section 2 -->
+
 <div id="section3" class="container-fluid">
   <h1>Section 3</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
@@ -150,6 +173,33 @@
 
 });
   }(jQuery));
+
+
+//skills chart only when the user scrolls down
+  (function ($) {
+  $(document).ready(function(){
+
+    
+
+    // fade in skills chart
+    $(function () {
+        $(window).scroll(function () {
+
+    // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > $(window).height() - 250) {
+                $('ul.skills-chart li').fadeIn();
+            } else {
+                $('ul.skills-chart li').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+
+
+
+
   </script>
 </body>
 </html>

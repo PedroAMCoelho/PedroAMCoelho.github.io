@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="BR">
 <head>
-	<meta charset="utf-8" />
-	<meta name="description" content="Curso de Front-end com Twitter Bootstrap" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Pedro</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Curso de Front-end com Twitter Bootstrap" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedro</title>
   <!-- Font Awesome CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style3.css"> <!-- p/ chamar o doc css -->
+  <link rel="stylesheet" href="style3.css"> <!-- p/ chamar o doc css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree Serif|Josefin Sans">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -22,10 +23,10 @@
       <div id="menu" class="navbar-header">
 
         <ul class="nav navbar-nav">
-        <li id="WebSiteName">	
+        <li id="WebSiteName"> 
 
-        		<a class="navbar-brand" href="#section0">WebSiteName</a>
-   		  </li>
+            <a class="navbar-brand" href="#section0">WebSiteName</a>
+        </li>
           <li><a href="#section1">Section 1</a></li>
           <li><a href="#section2">Section 2</a></li>
           <li><a href="#section3">Section 3</a></li>
@@ -38,14 +39,14 @@
 
 <div id="section1" class="container-fluid">
   <div id="myName">PEDRO ARAUJO MARQUES COELHO</div>
-  <h1 id="dev" class="block-center">DESENVOLVEDOR <span id="palavraWEB">WEB</span>
+  <h1 id="dev" class="block-center"><span id="palavraWEB">WEB</span> DEVELOPER
   </h1>
   <p id="frase">Each act of creating is an act of discovering who you are</p>
 
-  <div class="row">
+  <div class="iconesRedesSociais">
   <div class="col-md-12">
     <button type="submit" class="btn">
-  	<a id="face" target="_blank" href="#" class="fa fa-facebook-f"></a>
+    <a id="face" target="_blank" href="#" class="fa fa-facebook-f"></a>
     </button>
     <button type="submit" class="btn">
     <a id="whats" target="_blank" href="#" class="fa fa-whatsapp"></a>
@@ -74,36 +75,71 @@
 
 <div id="section2" class="container-fluid">
 
-<h1 id="about" class="text-center"> SOBRE MIM <br /><img width="70px" src="5stars-dark2.png" alt="Smiley face"></h1>
+<h1 id="about" class="text-center"> A SNEAK PEEK ABOUT ME <br /><img src="5stars-dark2.png" alt="Smiley face"></h1>
 
-<div class="row">
+<div class="row about-container">
   
-  <div class="col-md-6 text-center">
-  oi<br />
-  <img class="img-circle" src="pedrow2.png" alt="Smiley face">
+  <div class="col-md-4"> <!-- Left-box -->
+  <br />
+  <img class="img-custom img-responsive center-block" src="pcart3.jpg" alt="Smiley face">
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-4"> <!-- Center-box -->
+  <h2 id="about2">My curious history</h2><br />
+  <p class="general-description"> My history is full of turnarounds. During my law graduation, I became quite interested on coding and decided to apply for one of the best computer science university courses in Brazil (of UFSC). I was approved in their selection and started the graduation in parallel with law (yes...). Well, you can imagine that all hell broke loose. At the end of the day, I had to make a difficult decision - postponing my tech dream to finish law. 4 years later, living in Rio de Janeiro, I decided to resume my programming studies by myself and just some time after that I joined a new graduation - of system analysis -, in INFNET. The dream is alive! :)   </p>
+
+<!-- <p>I believe success is directly associated to the motivation you face your challenges and pursue your goals. My motivation is to always explore the wonders of new technologies. Each small achievement is one more step to excellence</p> -->
+
+  </div>
+
+
+  <div class="col-md-4"> <!-- Right-box -->
   
-  <img class="img-circle center-block" src="pedrow2.png" alt="Dev's photo"><br />
+  <img class="center-block" src="letter.png" alt="Dev's photo"><br />
   
 <div class="dados center-block">
-  <p><strong>Nome:</strong> Pedro Araujo Marques Coelho</p>
-  <p><strong>Data de Nascimento:</strong> 6/3/1990</p>
-  <p><strong>Nacionalidade:</strong> Brasileiro</p>
-  <p><strong>Telefone:</strong> (21) 99968-3351</p>
+  <p><strong>Name:</strong> Pedro Araujo Marques Coelho</p>
+  <p><strong>Birth date:</strong> March 6, 1990</p>
+  <p><strong>Nationality:</strong> Brazilian</p>
+  <p><strong>Phone:</strong> (21) 99968-3351</p>
   <p><strong>e-mail:</strong> pedrocoelhoprojetos@gmail.com</p>
 </div>
 
 
 
 </div>
+</div> <!-- Closes about-container -->
+
+<div class="row"> <!--Opens skills-container -->
+
+  <div class="col-md-7 skills">
+
+  <h2><i class="fa fa-bar-chart"></i> Skills</h2>
+
+  <ul class="list-unstyled skills-chart">
+    <li class="html">HTML</li>
+    <li class="css">CSS</li>
+    <li class="bootstrap">Bootstrap</li>
+    <li class="jquery">jQuery</li>
+    <li class="js">Javascript</li>
+    <li class="java">Java</li>
+    <li class="github">Git/GitHub</li>
+    <li class="bonus">*Bonus skills<i class="fa fa-arrow-down" style="font-size:15px; color:black"></i></li>
+    <li class="lang-Eng">English</li>
+    <li class="lang-Pt">Portuguese</li>
+    <li class="ip">Intellectual Property</li>
+    <p class="timeline"></p>
+  </ul>    
+
 </div>
 
-
-
+<div class="col-md-5"></div>
   
 </div>
+
+  </div>
+</div> <!-- Closes section 2 -->
+
 <div id="section3" class="container-fluid">
   <h1>Section 3</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
@@ -116,7 +152,7 @@
 </div>
 
 
-	<script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
   <script>
     //.navbar only on section 2
   (function ($) {
@@ -140,6 +176,33 @@
 
 });
   }(jQuery));
+
+
+//skills chart only when the user scrolls down
+  (function ($) {
+  $(document).ready(function(){
+
+    
+
+    // fade in skills chart
+    $(function () {
+        $(window).scroll(function () {
+
+    // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > $(window).height() - 130) {
+                $('ul.skills-chart li').fadeIn();
+            } else {
+                $('ul.skills-chart li').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+
+
+
+
   </script>
 </body>
 </html>

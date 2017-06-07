@@ -256,7 +256,7 @@ div.botao{
   display:block;
 }
 
-h2 {
+h2,h3 {
   border-bottom:1px solid black;
 
 }
@@ -347,6 +347,13 @@ ul.skills-chart > p.timeline{
   height:50px;
 }
 
+/*Courses and Publications*/
+
+.cap{
+  padding-top:20px;
+  display:block;
+  margin-left:5.5vw;
+}
 
 
 

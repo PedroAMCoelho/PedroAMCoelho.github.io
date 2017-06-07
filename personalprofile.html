@@ -112,7 +112,7 @@
 
 <div class="row"> <!--Opens skills-container -->
 
-  <div class="col-md-7 skills">
+  <div class="col-md-6 skills"> <!--Opens Tech skills-->
 
   <h2><i class="fa fa-bar-chart"></i> Skills</h2>
 
@@ -131,13 +131,20 @@
     <p class="timeline"></p>
   </ul>    
 
-</div>
+</div> <!--Closes Tech skills -->
 
-<div class="col-md-5"></div>
+<div class="col-md-4 cap">
   
-</div>
+<h3><i class="fa fa-graduation-cap"></i><i class="fa fa-book"></i> Courses and Publications</h3>
 
-  </div>
+<button class="btn btn-lg btn-default" data-toggle="tooltip" data-html="true" data-placement="bottom" title="hey"><i class="fa fa-graduation-cap"></i> </button>
+
+
+</div> <!-- Closes Courses and Publications box -->
+  
+</div> <!--Closes skills-container -->
+
+  
 </div> <!-- Closes section 2 -->
 
 <div id="section3" class="container-fluid">
@@ -200,9 +207,9 @@
 });
   }(jQuery));
 
-
-
+$('[data-toggle="tooltip"]').tooltip();
 
   </script>
+
 </body>
 </html>

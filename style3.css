@@ -274,12 +274,13 @@ ul.skills-chart li {
     animation-name: example;
     animation-duration: 6.5s;
     animation-timing-function:ease-out;
+   
 }
 
 /* Standard syntax */
 @keyframes example {
     
-    0%{width:150px;}
+    0%{width:150px;}    
     20%{width:210px;}
     30%{width:220px;}
      
@@ -332,9 +333,15 @@ ul.skills-chart li.lang-Pt {
 
 ul.skills-chart li.lang-Eng {
     width: 590px;
-    background: #fff;
+    background: #00FFFF;
     color:black;
 }
+
+ul.skills-chart li.lang-Fr {
+    width: 230px;
+    background: #a3a3a3;
+    color:black;
+    }
 
 ul.skills-chart li.ip {
     width: 580px;
@@ -355,6 +362,41 @@ ul.skills-chart > p.timeline{
   margin-left:5.5vw;
 }
 
+.custom-button{
+  
+  border-style:none;
+  background-color: transparent;
+  padding:0 auto;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+  margin-bottom:5px;
+  border-bottom: 2px solid #a3a3a3;
+  border-image: radial-gradient(black, black, rgba(0,0,0,0));
+  border-image-slice:1;
+}
+
+.black-btn{
+  color:black;
+}
+
+.sea-btn{
+  color:#00FFFF;
+}
+
+.shadow{
+  background-color: #a3a3a3;
+  border: 2px solid #777;
+  color: #FFF;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.8);}
+
+  #hi{
+    font-size:16px;
+  }
+
+.shadow:hover{
+
+
+}
 
 
 /*MOBILE*/

@@ -339,7 +339,7 @@ ul.skills-chart li.lang-Eng {
 
 ul.skills-chart li.lang-Fr {
     width: 230px;
-    background: #a3a3a3;
+    background: #ffff66;
     color:black;
     }
 
@@ -373,7 +373,16 @@ ul.skills-chart > p.timeline{
   border-bottom: 2px solid #a3a3a3;
   border-image: radial-gradient(black, black, rgba(0,0,0,0));
   border-image-slice:1;
+  max-width:215px;
 }
+
+.custom-button:hover{
+background-color: rgba(210,180,140,0.3);
+  border-radius:10%;
+  color: #FFF;
+}
+
+/*hover pros botoes dos chapeus tb* \/ */
 
 .black-btn{
   color:black;
@@ -383,18 +392,43 @@ ul.skills-chart > p.timeline{
   color:#00FFFF;
 }
 
+.pi-btn{
+color:#FF1493
+
+}
+
+.gold-btn{
+  color:#ffff66;
+}
+
 .shadow{
   background-color: #a3a3a3;
   border: 2px solid #777;
   color: #FFF;
   text-shadow: 0 1px 1px rgba(0,0,0,0.8);}
 
-  #hi{
-    font-size:16px;
+  .hi{
+    font-size:13px;
+    padding-left:0px;
+  }
+
+  .tm{
+    padding-left:0px;
+    margin-left:-9px;
   }
 
 .shadow:hover{
 
+}
+
+.phrase-end-section{
+  border-bottom:1px solid black;
+  border-top:1px solid black;
+  margin-top: 40px;
+  padding:10px;
+  line-height:25px;
+  border-image: radial-gradient(black, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  border-image-slice:1;
 
 }
 

@@ -14,14 +14,28 @@ body {
   background-size:100%;
   background-repeat:no-repeat;
   background-size:cover;
+  width:100%;body {
+    position: relative;
+    box-sizing:border-box;
+    }
+
+ #Home {
+  padding-top:6vh;
+  height:100vh;
+  line-height: 6vh;
+  color: #fff; 
+  background-color: grey;
+  text-align:center;
+  background-image: url("rs.jpg");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-size:cover;
   width:100%;
   
  }
 
-  #section2 {
+  #About {
     padding-top:5vh;
-    height:2000px;
-    background-color: rgba(210,180,140,0.6);
     
     
   }
@@ -200,9 +214,14 @@ div.botao{
   position:relative;
 }
 
+#container-background{
+height:2330px;
+background-color: rgba(210,180,140,0.6);
+}
+
    /*SECTION 2*/
 
- #about{
+ #about1{
   
     font-size: 6rem;
     font-weight: 500px;
@@ -256,7 +275,7 @@ div.botao{
   display:block;
 }
 
-h2 {
+h2,h3 {
   border-bottom:1px solid black;
 
 }
@@ -274,12 +293,13 @@ ul.skills-chart li {
     animation-name: example;
     animation-duration: 6.5s;
     animation-timing-function:ease-out;
+   
 }
 
 /* Standard syntax */
 @keyframes example {
     
-    0%{width:150px;}
+    0%{width:150px;}    
     20%{width:210px;}
     30%{width:220px;}
      
@@ -298,6 +318,11 @@ ul.skills-chart li.css {
 ul.skills-chart li.bootstrap {
     width: 330px;
     background: purple;
+}
+
+ul.skills-chart li.photoshop{
+  background: #a3a3a3;
+  width:230px;
 }
 
 ul.skills-chart li.jquery {
@@ -332,9 +357,15 @@ ul.skills-chart li.lang-Pt {
 
 ul.skills-chart li.lang-Eng {
     width: 590px;
-    background: #fff;
+    background: #00FFFF;
     color:black;
 }
+
+ul.skills-chart li.lang-Fr {
+    width: 230px;
+    background: #ffff66;
+    color:black;
+    }
 
 ul.skills-chart li.ip {
     width: 580px;
@@ -347,7 +378,150 @@ ul.skills-chart > p.timeline{
   height:50px;
 }
 
+/*Courses and Publications*/
 
+.cap{
+  padding-top:20px;
+  display:block;
+  margin-left:5.5vw;
+}
+
+.custom-button{
+  
+  border-style:none;
+  background-color: transparent;
+  padding:0 auto;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+  margin-bottom:5px;
+  border-bottom: 2px solid #a3a3a3;
+  border-image: radial-gradient(black, black, rgba(0,0,0,0));
+  border-image-slice:1;
+  max-width:215px;
+}
+
+.custom-button:hover{
+background-color: rgba(210,180,140,0.3);
+  border-radius:10%;
+  color: #FFF;
+}
+
+/*hover pros botoes dos chapeus tb* \/ */
+
+.black-btn{
+  color:black;
+}
+
+.sea-btn{
+  color:#00FFFF;
+}
+
+.pi-btn{
+color:#FF1493
+
+}
+
+.gold-btn{
+  color:#ffff66;
+}
+
+  .hi{
+    font-size:13px;
+    padding-left:0px;
+  }
+
+  .tm{
+    padding-left:0px;
+    margin-left:-9px;
+  }
+
+.shadow:hover{
+
+}
+
+#portfolio{
+  border-bottom:1px solid black;
+  padding-bottom: 40px;
+  border-image: radial-gradient(black, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  border-image-slice:1
+}
+
+.portfolio-grid{
+  padding-top:20px;
+  margin-left:5.5vw;
+}
+
+#portfolio-title{
+  display:inline-block;
+  padding-top:20px;
+  margin-bottom:40px;
+}
+
+.esquerda{
+  margin-left:5.5vw;
+}
+
+#contact-title{
+  display:inline-block;
+  padding-top:20px;
+  margin-bottom:40px;
+}
+
+.direita{
+  padding-top:20px;
+}
+
+.scroll-top{
+  position: fixed;
+  bottom: 1.8em;
+  right: 1.8em;
+}
+
+form{
+  width:80%;
+}
+@media(min-width:1023px){
+  form{width:40%;margin-left:20px;
+  }
+}
+form .row:first-child .form-item{border-top:1px solid #fff;
+}
+.form-item{position:relative;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #bbb;
+}
+.form-item input, .form-item textarea{z-index:1;position:relative;padding-right:0;padding-left:0;border:0;border-radius:0;font-size:1.5em;background:0 0;box-shadow:none!important;resize:none;width:100%;
+}
+.form-item input:focus, .form-item textarea:focus{outline:0
+}
+.form-item label{display:block;z-index:0;position:relative;top:2em;margin:0;font-size:.85em;line-height:1.764705882em;vertical-align:middle;vertical-align:baseline;opacity:0;-webkit-transition:top .3s ease,opacity .3s ease;transition:top .3s ease,opacity .3s ease;
+}
+.form-item-filled label{top:0;opacity:1;color:#aaa;
+}
+.form-item-focused label{color:#722872;
+}
+
+
+#jesus{
+  
+  color:#fff;
+  background-color:black;
+  text-align:center;
+  
+}
+footer h3{
+  margin-bottom:30px;
+}
+#footer-above{
+  padding-top:50px;
+}
+#footer-above div{
+  margin-bottom:50px;
+
+}
+#footer-below{
+padding:0 0px 5px 20px;
+background-color:black;
+text-align:center;
+}
 
 
 /*MOBILE*/

@@ -23,18 +23,6 @@ body {
     
     
   }
-  #section3 {
-    padding-top:50px;
-    height:500px;
-    color: #fff; 
-    background-color: #ff9800;
-  }
-  #section4 {
-    padding-top:50px;
-    height:500px;
-    color: #fff; 
-    background-color: #00bcd4;
-  }
 
   /*NO NAVBAR*/
 
@@ -98,6 +86,7 @@ div.iconesRedesSociais{
     opacity: 0.7;
   text-decoration: none; /* Tirar o sublinhado dos icones */
   color:white;
+  border:0px;
 }
 
 /*Botão girado, fundo transparente*/
@@ -121,6 +110,7 @@ a#face{
   transform:rotate(-50deg);
   left:-15px;
   top:-8px;
+  text-decoration: none;
 }
 
 a#whats{
@@ -128,13 +118,14 @@ a#whats{
   transform:rotate(-50deg);
   left:-15px;
   top:-10.8px;
-  
+  text-decoration: none;
 }
 a#git{
   position:relative;
   transform:rotate(-48deg);
   left:-15px;
   top:-9.4px;
+  text-decoration: none;
 }
 
 a#lkedin{
@@ -142,12 +133,14 @@ a#lkedin{
   transform:rotate(-45deg);
   left:-15px;
   top:-9px;
+  text-decoration: none;
 }
 a#gmail{
   position:relative;
   transform:rotate(-45deg);
   left:-15px;
   top:-10px;
+  text-decoration: none;
 }
 
 /* Ícone do mouse no final da section 1*/

@@ -1,9 +1,9 @@
 body {
     position: relative;
     box-sizing:border-box;
-  }
+    }
 
- #section1 {
+ #Home {
   padding-top:6vh;
   height:100vh;
   line-height: 6vh;
@@ -18,10 +18,8 @@ body {
   
  }
 
-  #section2 {
+  #About {
     padding-top:5vh;
-    height:4000px;
-    background-color: rgba(210,180,140,0.6);
     
     
   }
@@ -200,9 +198,14 @@ div.botao{
   position:relative;
 }
 
+#container-background{
+height:2330px;
+background-color: rgba(210,180,140,0.6);
+}
+
    /*SECTION 2*/
 
- #about{
+ #about1{
   
     font-size: 6rem;
     font-weight: 500px;
@@ -299,6 +302,11 @@ ul.skills-chart li.css {
 ul.skills-chart li.bootstrap {
     width: 330px;
     background: purple;
+}
+
+ul.skills-chart li.photoshop{
+  background: #a3a3a3;
+  width:230px;
 }
 
 ul.skills-chart li.jquery {
@@ -401,12 +409,6 @@ color:#FF1493
   color:#ffff66;
 }
 
-.shadow{
-  background-color: #a3a3a3;
-  border: 2px solid #777;
-  color: #FFF;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.8);}
-
   .hi{
     font-size:13px;
     padding-left:0px;
@@ -422,16 +424,42 @@ color:#FF1493
 }
 
 #portfolio{
+  border-bottom:1px solid black;
+  padding-bottom: 40px;
+  border-image: radial-gradient(black, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  border-image-slice:1
+}
+
+.portfolio-grid{
+  padding-top:20px;
   margin-left:5.5vw;
 }
 
 #portfolio-title{
   display:inline-block;
-  padding-top:40px;
+  padding-top:20px;
   margin-bottom:40px;
 }
 
+.esquerda{
+  margin-left:5.5vw;
+}
 
+#contact-title{
+  display:inline-block;
+  padding-top:20px;
+  margin-bottom:40px;
+}
+
+.direita{
+  padding-top:20px;
+}
+
+.scroll-top{
+  position: fixed;
+  bottom: 1.8em;
+  right: 1.8em;
+}
 
 form{
   width:80%;
@@ -454,23 +482,29 @@ form .row:first-child .form-item{border-top:1px solid #fff;
 }
 .form-item-focused label{color:#722872;
 }
-footer{
+
+
+#jesus{
+  
   color:#fff;
-  background-color:#aaa;
+  background-color:black;
   text-align:center;
-  box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  
 }
-footer h3{margin-bottom:30px;color:#fff;
+footer h3{
+  margin-bottom:30px;
 }
-#footer-above{padding-top:50px;width:80%;
+#footer-above{
+  padding-top:50px;
 }
-#footer-above div{margin-bottom:50px;width:250px;
+#footer-above div{
+  margin-bottom:50px;
+
 }
-#footer-above ul{padding:0;
-}
-#footer-above li{display:inline;
-}
-#footer-below{box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);padding:25px 0;background-color:#722872;text-align:center;
+#footer-below{
+padding:0 0px 5px 20px;
+background-color:black;
+text-align:center;
 }
 
 

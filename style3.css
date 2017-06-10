@@ -1,22 +1,6 @@
 body {
     position: relative;
     box-sizing:border-box;
-  }
-
- #section1 {
-  padding-top:6vh;
-  height:100vh;
-  line-height: 6vh;
-  color: #fff; 
-  background-color: grey;
-  text-align:center;
-  background-image: url("rs.jpg");
-  background-size:100%;
-  background-repeat:no-repeat;
-  background-size:cover;
-  width:100%;body {
-    position: relative;
-    box-sizing:border-box;
     }
 
  #Home {

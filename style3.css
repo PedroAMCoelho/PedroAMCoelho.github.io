@@ -1,9 +1,9 @@
 body {
-    position: relative;
-    box-sizing:border-box;
-    }
+  position: relative;
+  box-sizing:border-box;
+}
 
- #Home {
+#Home {
   padding-top:6vh;
   height:100vh;
   line-height: 6vh;
@@ -16,15 +16,15 @@ body {
   background-size:cover;
   width:100%;
   
- }
+}
 
-  #About {
-    padding-top:5vh;
-    
-    
-  }
+#About {
+  padding-top:5vh;
+  
+  
+}
 
-  /*NO NAVBAR*/
+/*NO NAVBAR*/
 
 #menu{
   float:right;
@@ -37,14 +37,14 @@ body {
 }
 
 /* SECTION 1 - HOMEPAGE */
-  
+
 #myName {
   font-size: 2.8vw;
   line-height: 50vh;
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 2.2vh; 
-  }
+}
 
 #dev{
   
@@ -67,23 +67,23 @@ body {
 
 div.iconesRedesSociais{
   display:inline-block;
-   }
+}
 
 
 /* Font awesome icons */
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-decoration: none;
-    border-radius: 40%;
-    border:0px;
-    color:white;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-decoration: none;
+  border-radius: 40%;
+  border:0px;
+  color:white;
 }
 
 /* Font awesome Hover effect */
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
   text-decoration: none; /* Tirar o sublinhado dos icones */
   color:white;
   border:0px;
@@ -91,12 +91,12 @@ div.iconesRedesSociais{
 
 /*Botão girado, fundo transparente*/
 button.btn{
-height:45px;
-width:45px;
-background:transparent;
-border:1px solid white;
-transform:rotate(45deg);
-margin: 12px;
+  height:45px;
+  width:45px;
+  background:transparent;
+  border:1px solid white;
+  transform:rotate(45deg);
+  margin: 12px;
 }
 
 /*Cor de fundo do HOVER dos botões que os ícones das redes sociais estão*/
@@ -147,37 +147,37 @@ a#gmail{
 
 .mouse-icon{
 
-    left: 50%;
-    border: 2px solid #fff;
-    border-radius: 16px;
-    height: 50px;
-    width: 30px;
-    margin-left: 50%;
-    margin-top:21vh;
+  left: 50%;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  height: 50px;
+  width: 30px;
+  margin-left: 50%;
+  margin-top:21vh;
 }
 
- .wheel{
+.wheel{
   
-    border-radius: 10px;
-    background: #fff;
-    width: 4px;
-    height: 10px;
-    top: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    animation-name: drop;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    position:relative;
- }
+  border-radius: 10px;
+  background: #fff;
+  width: 4px;
+  height: 10px;
+  top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  position:relative;
+}
 
- @keyframes drop {
-    0%   {top:5px; opacity:0;}
-    30%  {top:7px; opacity:1;}
-    100% {top:10px; opacity:0;}
+@keyframes drop {
+  0%   {top:5px; opacity:0;}
+  30%  {top:7px; opacity:1;}
+  100% {top:10px; opacity:0;}
 }
 
 div.botao{
@@ -192,22 +192,22 @@ div.botao{
 }
 
 #container-background{
-height:2330px;
-background-color: rgba(210,180,140,0.6);
+  height:2330px;
+  background-color: rgba(210,180,140,0.6);
 }
 
-   /*SECTION 2*/
+/*SECTION 2*/
 
- #about1{
+#about1{
   
-    font-size: 6rem;
-    font-weight: 500px;
-    font-family: Bree Serif, Helvetica, Arial, Sans-serif;
-    letter-spacing: -0.02em;
- }
+  font-size: 6rem;
+  font-weight: 500px;
+  font-family: Bree Serif, Helvetica, Arial, Sans-serif;
+  letter-spacing: -0.02em;
+}
 
- /*center-box*/
-  #about2{
+/*center-box*/
+#about2{
   
   border-bottom:1px solid;
   margin-bottom:10px;
@@ -237,12 +237,12 @@ background-color: rgba(210,180,140,0.6);
 
 /*container of all the above 3 boxes */
 
- .about-container{
+.about-container{
   border-bottom:1px solid black;
   padding-bottom: 40px;
   border-image: radial-gradient(black, rgba(0,0,0,0.5), rgba(0,0,0,0));
   border-image-slice:1;
- }
+}
 
 /*Skills*/
 
@@ -258,43 +258,43 @@ h2,h3 {
 }
 
 ul.skills-chart li {
-    height: 30px;
-    color: #FFF;
-    text-align: left;
-    font-style: italic;
-    font-size: 15px;
-    line-height: 30px;
-    padding: 0px 20px;
-    margin-bottom: 1px;
-    position: relative;
-    animation-name: example;
-    animation-duration: 6.5s;
-    animation-timing-function:ease-out;
-   
+  height: 30px;
+  color: #FFF;
+  text-align: left;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 0px 20px;
+  margin-bottom: 1px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6.5s;
+  animation-timing-function:ease-out;
+  
 }
 
 /* Standard syntax */
 @keyframes example {
-    
-    0%{width:150px;}    
-    20%{width:210px;}
-    30%{width:220px;}
-     
+  
+  0%{width:150px;}    
+  20%{width:210px;}
+  30%{width:220px;}
+  
 }
 
 ul.skills-chart li.html {
-    width: 535px;
-    background: #bc0000;
+  width: 535px;
+  background: #bc0000;
 }
 
 ul.skills-chart li.css {
-    width: 440px;
-    background: blue;
+  width: 440px;
+  background: blue;
 }
 
 ul.skills-chart li.bootstrap {
-    width: 330px;
-    background: purple;
+  width: 330px;
+  background: purple;
 }
 
 ul.skills-chart li.photoshop{
@@ -303,50 +303,50 @@ ul.skills-chart li.photoshop{
 }
 
 ul.skills-chart li.jquery {
-    width: 240px;
-    background: #00BFFF;
+  width: 240px;
+  background: #00BFFF;
 }
 
 ul.skills-chart li.js {
-    width: 250px;
-    background: #FFA500;
+  width: 250px;
+  background: #FFA500;
 }
 
 ul.skills-chart li.java {
-    width: 310px;
-    background: #FF4500;
+  width: 310px;
+  background: #FF4500;
 }
 
 ul.skills-chart li.github {
-    width: 300px;
-    background: black;
+  width: 300px;
+  background: black;
 }
 
 ul.skills-chart li.bonus {
-    color:black;
+  color:black;
 }
 
 ul.skills-chart li.lang-Pt {
-    width: 600px;
-    background: green;
-    color:black;
+  width: 600px;
+  background: green;
+  color:black;
 }
 
 ul.skills-chart li.lang-Eng {
-    width: 590px;
-    background: #00FFFF;
-    color:black;
+  width: 590px;
+  background: #00FFFF;
+  color:black;
 }
 
 ul.skills-chart li.lang-Fr {
-    width: 230px;
-    background: #ffff66;
-    color:black;
-    }
+  width: 230px;
+  background: #ffff66;
+  color:black;
+}
 
 ul.skills-chart li.ip {
-    width: 580px;
-    background: #FF1493;
+  width: 580px;
+  background: #FF1493;
 }
 
 ul.skills-chart > p.timeline{
@@ -378,7 +378,7 @@ ul.skills-chart > p.timeline{
 }
 
 .custom-button:hover{
-background-color: rgba(210,180,140,0.3);
+  background-color: rgba(210,180,140,0.3);
   border-radius:10%;
   color: #FFF;
 }
@@ -394,7 +394,7 @@ background-color: rgba(210,180,140,0.3);
 }
 
 .pi-btn{
-color:#FF1493
+  color:#FF1493
 
 }
 
@@ -402,15 +402,15 @@ color:#FF1493
   color:#ffff66;
 }
 
-  .hi{
-    font-size:13px;
-    padding-left:0px;
-  }
+.hi{
+  font-size:13px;
+  padding-left:0px;
+}
 
-  .tm{
-    padding-left:0px;
-    margin-left:-9px;
-  }
+.tm{
+  padding-left:0px;
+  margin-left:-9px;
+}
 
 .shadow:hover{
 
@@ -495,9 +495,9 @@ footer h3{
 
 }
 #footer-below{
-padding:0 0px 5px 20px;
-background-color:black;
-text-align:center;
+  padding:0 0px 5px 20px;
+  background-color:black;
+  text-align:center;
 }
 
 
@@ -507,49 +507,49 @@ text-align:center;
 
 @media screen and (max-width: 800px){
 
-button.btn{
-height:31px;
-width:31px;
-margin: 6px;
-}
+  button.btn{
+    height:31px;
+    width:31px;
+    margin: 6px;
+  }
 
-.fa{
+  .fa{
 
-font-size: 20px;
+    font-size: 20px;
   }
 
   a#face{
-  
-transform:rotate(-48deg);
-left:-22px;
-top:-11.8px;
-}
+    
+    transform:rotate(-48deg);
+    left:-22px;
+    top:-11.8px;
+  }
 
-a#whats{
-  
-transform:rotate(-48deg);
-left:-22px;
-top:-11.8px;
-  
-}
-a#git{
-  
-transform:rotate(-48deg);
-left:-22px;
-top:-11.8px;
-}
+  a#whats{
+    
+    transform:rotate(-48deg);
+    left:-22px;
+    top:-11.8px;
+    
+  }
+  a#git{
+    
+    transform:rotate(-48deg);
+    left:-22px;
+    top:-11.8px;
+  }
 
-a#lkedin{
-  
-transform:rotate(-48deg);
-left:-22px;
-top:-11.8px;
-}
-a#gmail{
-  
-transform:rotate(-48deg);
-left:-22px;
-top:-11.8px;
-}
+  a#lkedin{
+    
+    transform:rotate(-48deg);
+    left:-22px;
+    top:-11.8px;
+  }
+  a#gmail{
+    
+    transform:rotate(-48deg);
+    left:-22px;
+    top:-11.8px;
+  }
 
 }
